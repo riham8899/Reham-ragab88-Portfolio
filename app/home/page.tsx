@@ -3,7 +3,7 @@ import SoftAurora from '../_components/background/SoftAurora'
 import TextAnimation from './../_components/textAnimation/TextAnimation';
 import { Button } from "@/components/ui/button";
 import { MdWavingHand } from 'react-icons/md';
-import { useInView } from 'motion/react';
+
 
 
 const Home = () => {
