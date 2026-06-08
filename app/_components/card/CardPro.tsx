@@ -15,7 +15,7 @@ import { FaGithub, FaLocationArrow } from "react-icons/fa";
 
 export function CardPro() {
     return (
-        <div className="flex flex-col md:flex-row gap-10 mt-10 justify-center items-center w-full p-5 ">
+        <div className="flex flex-col md:flex-row  gap-10 mt-10 justify-center items-center w-full p-5 ">
 
             <Card className="relative mx-auto  max-w-sm  dark:bg-purple-50 bg-body pt-0 overflow-hidden hover:scale-105 transition duration-300">
                 <div className="absolute inset-0 z-30   aspect-video  pointer-events-none overflow-hidden" />
@@ -102,7 +102,7 @@ export function CardPro() {
                     <Link rel="stylesheet" href="https://github.com/riham8899/social-app" className="flex flex-row gap-1 ">  <FaGithub className="text-2xl hover:text-3xl hover:scale-110 duration-500 transition-all text-black " /></Link>
 
 
-                    <Link rel="stylesheet" href="social-app-eta-beige.vercel.app" className="flex items-center gap-1 text-ms hover:text-md hover:scale-110 duration-500 transition-all text-black "> live Demo <FaLocationArrow className="text-sm text-black" /> </Link>
+                    <Link rel="stylesheet" href="https://social-app-eta-beige.vercel.app/login" className="flex items-center gap-1 text-ms hover:text-md hover:scale-110 duration-500 transition-all text-black "> live Demo <FaLocationArrow className="text-sm text-black" /> </Link>
                 </CardFooter>
             </Card>
 

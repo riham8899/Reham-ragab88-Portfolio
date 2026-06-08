@@ -1,6 +1,6 @@
 "use client";
-import Link from 'next/link';
-import React, { useEffect, useRef, useState } from 'react';
+
+import React, { useEffect, useState } from 'react';
 import Button from '../button/Button';
 import { SlMenu } from 'react-icons/sl';
 import { RiCloseLine } from 'react-icons/ri';
@@ -50,7 +50,7 @@ export const Navbar = () => {
           <ul className='flex-row flex-wrap gap-3 flex  justify-center'>
 
             <li>
-              <a href="#home" className={active === "home" ? "text-fuchsia-400 text-lg" : "text-white text-lg" }>Home</a>
+              <a href="#home" className={active === "home" ? "text-fuchsia-400 text-lg" : "text-white text-lg"}>Home</a>
             </li>
             <li>
               <a href="#about" className={
@@ -60,19 +60,20 @@ export const Navbar = () => {
               }> About</a>
             </li>
             <li>
-              <a href="#projects" className={
-                active === "projects"
-                  ? "text-fuchsia-400 text-lg"
-                  : "text-white text-lg"
-              }>Projects</a>
-            </li>
-            <li>
               <a href="#skills" className={
                 active === "skills"
                   ? "text-fuchsia-400 text-lg"
                   : "text-white text-lg"
               }>Skills</a>
             </li>
+            <li>
+              <a href="#projects" className={
+                active === "projects"
+                  ? "text-fuchsia-400 text-lg"
+                  : "text-white text-lg"
+              }>Projects</a>
+            </li>
+
             <li>
               <a href="#contact" className={
                 active === "contact"
@@ -97,19 +98,20 @@ export const Navbar = () => {
           <ul className='flex-col flex-wrap gap-3 flex  justify-center'>
 
             <li>
-              <a href="#home" onClick={() => setopenMenue(false)} className={active === "home" ? "text-fuchsia-400 text-lg" : "text-white text-lg" }>Home</a>
+              <a href="#home" onClick={() => setopenMenue(false)} className={active === "home" ? "text-fuchsia-400 text-lg" : "text-white text-lg"}>Home</a>
             </li>
             <li>
-              <a href="#about" onClick={() => setopenMenue(false)} className={active === "about" ? "text-fuchsia-400 text-lg" : "text-white text-lg" }>About</a>
+              <a href="#about" onClick={() => setopenMenue(false)} className={active === "about" ? "text-fuchsia-400 text-lg" : "text-white text-lg"}>About</a>
             </li>
             <li>
-              <a href="#projects" onClick={() => setopenMenue(false)} className={active === "projects" ? "text-fuchsia-400 text-lg" : "text-white text-lg" }>Projects</a>
+              <a href="#skills" onClick={() => setopenMenue(false)} className={active === "skills" ? "text-fuchsia-400 text-lg" : "text-white text-lg"}>Skills</a>
             </li>
             <li>
-              <a href="#skills" onClick={() => setopenMenue(false)} className={active === "skills" ? "text-fuchsia-400 text-lg" : "text-white text-lg" }>Skills</a>
+              <a href="#projects" onClick={() => setopenMenue(false)} className={active === "projects" ? "text-fuchsia-400 text-lg" : "text-white text-lg"}>Projects</a>
             </li>
+
             <li>
-              <a href="#contact" onClick={() => setopenMenue(false)} className={active === "contact" ? "text-fuchsia-400 text-lg" : "text-white text-lg" }>Contact Us</a>
+              <a href="#contact" onClick={() => setopenMenue(false)} className={active === "contact" ? "text-fuchsia-400 text-lg" : "text-white text-lg"}>Contact Us</a>
             </li>
           </ul>
         </div>

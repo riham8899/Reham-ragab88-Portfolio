@@ -15,8 +15,9 @@ const TextAnimation = () => {
         return () => clearInterval(interval);
 
 
-    }, [])
+    }, [text.length])
 
+    
 
     return (
         <div className=" relative h-16  w-full ">

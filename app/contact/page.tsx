@@ -3,9 +3,9 @@ import React from 'react'
 
 import {
   Card,
-  CardContent,
+
   CardDescription,
-  CardFooter,
+
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
@@ -16,7 +16,7 @@ import { MdEmail } from 'react-icons/md';
 import { FaGithub, FaLinkedin, FaPhone } from 'react-icons/fa';
 import { FaLocationDot, FaSquareWhatsapp } from 'react-icons/fa6';
 
-import { easeOut, motion } from 'framer-motion';
+import {  motion } from 'framer-motion';
 
 
 const Contact = () => {
@@ -30,7 +30,7 @@ const Contact = () => {
           <div className='flex flex-col md:flex-row my-5 justify-center  w-full gap-2 items-center'>
 
             <motion.div initial={{ y: 50, opacity: 0 }} transition={{ duration: .9, ease: "easeOut" }} viewport={{ once: false }} whileInView={{ opacity: 1, y: 0 }} className='flex flex-col gap-4  items-center w-full'>
-              <Card size="sm" className= "bg-purple-300  dark:bg-purple-600/40 mx-auto w-full max-w-sm hover:scale-105 transition duration-300">
+              <Card size="sm" className="bg-purple-300  dark:bg-purple-600/40 mx-auto w-full max-w-sm hover:scale-105 transition duration-300">
                 <CardHeader>
                   <CardTitle className=' text-xl! text-center font-bold '>Email</CardTitle>
                   <CardDescription className="flex items-center text-center gap-2">

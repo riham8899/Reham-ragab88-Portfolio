@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React from 'react'
 import SoftAurora from '../_components/background/SoftAurora'
 import TextAnimation from './../_components/textAnimation/TextAnimation';
 import { Button } from "@/components/ui/button";
