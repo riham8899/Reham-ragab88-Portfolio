@@ -27,8 +27,11 @@ export const Navbar = () => {
     sections.forEach((section) => {
       observer.observe(section);
     })
+     return () => observer.disconnect();
 
-  });
+  },[]);
+
+
   // اخترت IntersectionObserver لأنه يوفر طريقة فعالة لمراقبة العناصر في العرض، مما يسمح
   //  لي بتحديث حالة التنقل بناءً 
   // على القسم الذي يراه المستخدم حاليًا. هذا يضمن تجربة مستخدم سلسة 
