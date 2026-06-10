@@ -43,9 +43,9 @@ export const Navbar = () => {
 
   return (
     <div className=' fixed  top-0 left-0 z-50 w-full'>
-      <div className='  my-5  flex  justify-around mx-5 py-5 rounded-3xl bg-indigo-700/40 dark:bg-indigo-500/40 backdrop-blur-md font-light'>
+      <div className='  my-5  flex  justify-around mx-5 py-5 rounded-3xl bg-indigo-700/20 dark:bg-indigo-500/20 backdrop-blur-md '>
         <div>
-          <h2 className="bg-linear-to-r from-indigo-700 via-purple-600 to-fuchsia-700 bg-clip-text text-transparent text-2xl">
+          <h2 className="text-violet-950 dark:bg-linear-to-r from-indigo-700 via-purple-600 to-fuchsia-700 bg-clip-text dark:text-transparent text-2xl font-extrabold">
             Reham Ragab
           </h2>
         </div>
@@ -53,35 +53,35 @@ export const Navbar = () => {
           <ul className='flex-row flex-wrap gap-3 flex  justify-center'>
 
             <li>
-              <a href="#home" className={active === "home" ? "text-fuchsia-400 text-lg" : "text-white text-lg"}>Home</a>
+              <a href="#home" className={active === "home" ? "text-fuchsia-700 text-xl font-bold dark:text-fuchsia-400" : "text-violet-950 text-xl dark:text-white"}>Home</a>
             </li>
             <li>
               <a href="#about" className={
                 active === "about"
-                  ? "text-fuchsia-400 text-lg"
-                  : "text-white text-lg"
+                  ? "text-fuchsia-700 text-xl font-bold dark:text-fuchsia-400"
+                  : "text-violet-950 text-xl dark:text-white"
               }> About</a>
             </li>
             <li>
               <a href="#skills" className={
                 active === "skills"
-                  ? "text-fuchsia-400 text-lg"
-                  : "text-white text-lg"
+                  ? "text-fuchsia-700 text-xl font-bold dark:text-fuchsia-400"
+                  : "text-violet-950 text-xl dark:text-white"
               }>Skills</a>
             </li>
             <li>
               <a href="#projects" className={
                 active === "projects"
-                  ? "text-fuchsia-400 text-lg"
-                  : "text-white text-lg"
+                  ? "text-fuchsia-700 text-xl font-bold dark:text-fuchsia-400"
+                  : "text-violet-950 text-xl dark:text-white"
               }>Projects</a>
             </li>
 
             <li>
               <a href="#contact" className={
                 active === "contact"
-                  ? "text-fuchsia-400 text-lg"
-                  : "text-white text-lg"
+                  ? "text-fuchsia-700 text-xl font-bold dark:text-fuchsia-400"
+                  : "text-violet-950 text-xl dark:text-white"
               }>Contact Us</a>
             </li>
           </ul>
@@ -101,20 +101,20 @@ export const Navbar = () => {
           <ul className='flex-col flex-wrap gap-3 flex  justify-center'>
 
             <li>
-              <a href="#home" onClick={() => setopenMenue(false)} className={active === "home" ? "text-fuchsia-400 text-lg" : "text-white text-lg"}>Home</a>
+              <a href="#home" onClick={() => setopenMenue(false)} className={active === "home" ? "text-fuchsia-700 text-xl font-bold dark:text-fuchsia-400" : "text-violet-950 text-xl dark:text-white"}>Home</a>
             </li>
             <li>
-              <a href="#about" onClick={() => setopenMenue(false)} className={active === "about" ? "text-fuchsia-400 text-lg" : "text-white text-lg"}>About</a>
+              <a href="#about" onClick={() => setopenMenue(false)} className={active === "about" ? "text-fuchsia-700 text-xl font-bold dark:text-fuchsia-400" : "text-violet-950 text-xl dark:text-white"}>About</a>
             </li>
             <li>
-              <a href="#skills" onClick={() => setopenMenue(false)} className={active === "skills" ? "text-fuchsia-400 text-lg" : "text-white text-lg"}>Skills</a>
+              <a href="#skills" onClick={() => setopenMenue(false)} className={active === "skills" ? "text-fuchsia-700 text-xl font-bold dark:text-fuchsia-400" : "text-violet-950 text-xl dark:text-white"}>Skills</a>
             </li>
             <li>
-              <a href="#projects" onClick={() => setopenMenue(false)} className={active === "projects" ? "text-fuchsia-400 text-lg" : "text-white text-lg"}>Projects</a>
+              <a href="#projects" onClick={() => setopenMenue(false)} className={active === "projects" ? "text-fuchsia-700 text-xl font-bold dark:text-fuchsia-400" : "text-violet-950 text-xl dark:text-white"}>Projects</a>
             </li>
 
             <li>
-              <a href="#contact" onClick={() => setopenMenue(false)} className={active === "contact" ? "text-fuchsia-400 text-lg" : "text-white text-lg"}>Contact Us</a>
+              <a href="#contact" onClick={() => setopenMenue(false)} className={active === "contact" ? "text-fuchsia-700 text-xl font-bold dark:text-fuchsia-400" : "text-violet-950 text-xl dark:text-white"}>Contact Us</a>
             </li>
           </ul>
         </div>

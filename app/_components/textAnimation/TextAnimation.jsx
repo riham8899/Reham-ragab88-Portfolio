@@ -28,7 +28,7 @@ const TextAnimation = () => {
                     animate={{ y: 0, opacity: 1 }}
                     exit={{ y: -40, opacity: 0 }}
                     transition={{ duration: 0.5 }}
-                    className="absolute text-4xl text-blue-900  dark:text-blue-600 font-bold mt-4 z-10"
+                    className="absolute text-4xl lg:text-6xl  text-violet-900  dark:text-blue-600 font-bold my-4 z-10"
                 >
                     {text[currentIndex]}
                 </motion.h2>
