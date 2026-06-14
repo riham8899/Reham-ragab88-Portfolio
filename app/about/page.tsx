@@ -17,7 +17,7 @@ const About = () => {
           <h2 className='text-3xl my-4 text-fuchsia-400'>Hi I'm Reham... </h2>
           <p>
           I am a Front-End Developer with a strong passion for building modern, responsive, and high-performance web applications.
-          I earned my UI Development certificate from Root Academy, where I developed a solid foundation in creating seamless and user-friendly interfaces. 
+          I earned my front-end Development certificate from Root Academy, where I developed a solid foundation in creating seamless and user-friendly interfaces. 
           I specialize in working with React and Next.js, leveraging their flexibility to build scalable and maintainable applications 
           My goal is to create digital products that are not only functional, but also visually appealing, intuitive, and efficient.
             I am always eager to learn new technologies and improve my skills to deliver better performance and user experience.
